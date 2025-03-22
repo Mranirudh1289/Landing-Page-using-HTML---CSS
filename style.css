@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #111317;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img {
+    width: 80px;
+    height: 60px;
+    mix-blend-mode: multiply;
+    filter: invert(100%);
+
+}
+
+.nav-links ul {
+    display: flex;
+}
+
+.nav-links ul li {
+    list-style: none;
+    padding: 25px;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-btn {
+    padding: 25px;
+}
